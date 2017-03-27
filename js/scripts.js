@@ -1,13 +1,13 @@
 $(document).ready(function() {
-  $("h1").click(function() {
-    alert("This is a header.");
-  });
 
-  $("p").click(function() {
-    alert("This is a paragraph.");
-  });
+var tags = ["h1", "p", "img"];
 
-  $("img").click(function() {
-    alert("This is an image.");
-  });
+tags.forEach(function(tag) {
+
+  // var results = $("tag" + tags)
+  $(tag).click(function(){
+  alert("This is a " + tag)}
+);
+});
+
 });
